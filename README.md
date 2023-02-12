@@ -21,7 +21,7 @@ I created a horizontal bar chart with a dropdown menu to display the top 10 OTUs
 - I used `otu_ids` as the labels for the bar chart.
 - I used `otu_labels` as the hovertext for the chart.
 
-  <ins>Horizontal Bar chart</ins>
+  <ins>Plotly Horizontal Bar chart</ins>
   
 ![Screen Shot 2023-02-12 at 15 36 17](https://user-images.githubusercontent.com/116304118/218320742-acba0b34-57b6-435d-bfd8-27631e7adbd5.png)
 
@@ -34,7 +34,7 @@ I also created a bubble chart that displays each sample. To do this:
 - I used `otu_ids` for the marker colors.
 - I used `otu_labels` for the text values.
   
-  <ins>Bubble Chart</ins>
+  <ins>Plotly Bubble Chart</ins>
   
 ![Screen Shot 2023-02-12 at 15 46 42](https://user-images.githubusercontent.com/116304118/218321344-df75c3f1-967b-49f2-8b42-dc38c3b68c90.png)
 
@@ -52,7 +52,11 @@ In addition to the above charts, I also created a gauge chart that plots the wee
 
   <ins>Interactive Dashboard</ins>
   
-All the plots are updated when a new sample is selected from the Demographic Info. Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown as follows:
+All the plots are updated when a new sample is selected from the Demographic Info. See image of the overall dashboard layout below. 
+  
+  ![Screen Shot 2023-02-12 at 17 02 09](https://user-images.githubusercontent.com/116304118/218325592-9e7727bb-d315-4d56-99a7-475246d0326a.png)
+
+
 
   <ins>Deployment</ins>
   
