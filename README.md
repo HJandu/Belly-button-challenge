@@ -11,7 +11,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 * `samples.json` - Used the D3 library to read in samples.json from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.
 * `static/js` folder that contains my `app.js` code.
 
-Deploy the new repository to GitHub Pages.
+Before I began to write up the code, I created the skeleton for each `function`.
 
 ## <ins>Charts created</ins>
 
@@ -21,77 +21,45 @@ I created a horizontal bar chart with a dropdown menu to display the top 10 OTUs
 - I used `otu_ids` as the labels for the bar chart.
 - I used `otu_labels` as the hovertext for the chart.
 
+  <ins>Horizontal Bar chart</ins>
+  
 ![Screen Shot 2023-02-12 at 15 36 17](https://user-images.githubusercontent.com/116304118/218320742-acba0b34-57b6-435d-bfd8-27631e7adbd5.png)
 
 
-Create a bubble chart that displays each sample.
+I also created a bubble chart that displays each sample. To do this:
 
-Use otu_ids for the x values.
+- I used `otu_ids` for the x values.
+- I used `sample_values` for the y values.
+- I used `sample_values` for the marker size.
+- I used `otu_ids` for the marker colors.
+- I used `otu_labels` for the text values.
+  
+  <ins>Bubble Chart</ins>
+  
+![Screen Shot 2023-02-12 at 15 46 42](https://user-images.githubusercontent.com/116304118/218321344-df75c3f1-967b-49f2-8b42-dc38c3b68c90.png)
 
-Use sample_values for the y values.
+  
+The above bubble chart displays the sample metadata, i.e., an individual's demographic information. It also displays each key-value pair from the metadata JSON object on the page.
+  
+  
+  <ins>Gauge Chart</ins> 
 
-Use sample_values for the marker size.
+In addition to the above charts, I also created a gauge chart that plots the weekly washing frequency of the individual.
 
-Use otu_ids for the marker colors.
+![Screen Shot 2023-02-12 at 16 15 52](https://user-images.githubusercontent.com/116304118/218322908-ce43afb2-1d2c-456e-ba15-af40e6805456.png)
+  
+  
 
-Use otu_labels for the text values.
+  <ins>Interactive Dashboard</ins>
+  
+All the plots are updated when a new sample is selected from the Demographic Info. Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown as follows:
 
-Bubble Chart
-Display the sample metadata, i.e., an individual's demographic information.
+  <ins>Deployment</ins>
+  
+This app was deployed public on GitHub Pages. Click on the following link to see what the page looks like. 
 
-Display each key-value pair from the metadata JSON object somewhere on the page.
 
-hw
-Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown as follows:
 
-hw
-Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo. Ensure that your repository has regular commits and a thorough README.md file
 
-Advanced Challenge Assignment (Optional with no extra points earning)
-The following task is advanced and therefore optional.
 
-Adapt the Gauge Chart from https://plot.ly/javascript/gauge-charts/ Links to an external site.to plot the weekly washing frequency of the individual.
 
-You will need to modify the example gauge code to account for values ranging from 0 through 9.
-
-Update the chart whenever a new sample is selected.
-
-Weekly Washing Frequency Gauge
-Hints
-Use console.log inside of your JavaScript code to see what your data looks like at each step.
-
-Refer to the Plotly.js documentation Links to an external site.when building the plots.
-
-Requirements
-Bar Chart (30 points)
-Chart initializes without error (10 points)
-
-Chart updates when a new sample is selected (5 points)
-
-Chart uses Top 10 sample values as values (5 points)
-
-Chart uses otu_ids as the labels (5 points)
-
-Chart uses otu_labels as the tooltip (5 points)
-
-Bubble Charts (40 points)
-Chart initializes without error (10 points)
-
-Chart updates when a new sample is selected (5 points)
-
-Chart uses otu_ids for the x values (5 points)
-
-Chart uses otu_ids for marker colors (5 points)
-
-Chart uses sample_values for the y values (5 points)
-
-Chart uses sample_values for the marker size (5 points)
-
-Chart uses `otu_labels for text values (5 points)
-
-Metadata and Deployment (30 points)
-Metadata initializes without error (10 points)
-
-Metadata updates when a new sample is selected (10 points)
-
-App Successfully Deployed to Github Pages (10 points)
