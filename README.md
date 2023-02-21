@@ -62,6 +62,8 @@ All the plots are updated when a new sample is selected from the Demographic Inf
   
 This app was deployed public on GitHub Pages. Click on the following link to see what the page looks like. 
 
+https://hjandu.github.io/Belly-button-challenge/
+
 
 
 
